@@ -1,0 +1,9 @@
+@import '../../styles/colors';
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
+
+.home-body {
+	color: $secondary-gray;
+	min-height: calc(87vh - 30px);
+	font-family: 'Nunito', sans-serif;
+	overflow: hidden;
+}

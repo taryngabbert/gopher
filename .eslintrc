@@ -1,0 +1,84 @@
+{
+	"extends": [
+		"airbnb",
+		"plugin:import/errors",
+		"plugin:import/warnings"
+	],
+	"plugins": [
+		"react"
+	],
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true,
+		"jquery": true
+	},
+	"rules": {
+		"computed-property-spacing": 0,
+    	"template-curly-spacing": 1,
+		"no-undef": 0,
+		"global-require": 0,
+		"space-before-function-paren": 0,
+		"import/default": 0,
+		"import/namespace": 0,
+		"import/no-named-as-default": 0,
+		"import/no-named-as-default-member": 0,
+    	"consistent-return": 0,
+		"arrow-body-style": 0,
+		"func-names": 0,
+		"prefer-arrow-callback": 0,
+    	"no-unused-vars": 0,
+    	"no-underscore-dangle": 0,
+		"no-param-reassign": 0,
+		"indent": 0,
+		"comma-dangle": [ "warn", "never" ],
+		"handle-callback-err": 1,
+		"no-console": 0,
+		"eol-last": 0,
+		"new-cap": 0,
+		"camelcase": 1,
+		"semi-spacing": 1,
+		"no-trailing-spaces": "warn",
+		"no-mixed-spaces-and-tabs": [
+			"warn",
+			"smart-tabs"
+		],
+		"quotes": [
+			1,
+			"single",
+			{
+				"allowTemplateLiterals": true
+			}
+		],
+		"semi": [
+			"warn",
+			"always"
+		],
+		"keyword-spacing": [
+			"warn",
+			{
+				"before": true,
+				"after": true
+			}
+		],
+		"object-curly-spacing": [
+			"warn",
+			"always"
+		],
+		"array-bracket-spacing": [
+			"warn",
+			"always"
+		],
+		"space-in-parens": [
+			"warn",
+			"always"
+		]
+	}
+}
